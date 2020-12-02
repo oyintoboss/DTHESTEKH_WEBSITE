@@ -49,6 +49,21 @@ img{
     height: 30rem;  
 }
 
+.portfolio_image{
+    width: 200px;
+    height: 200px;
+}
+
+.topheader{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: .2rem;
+    padding: 0;    
+    margin: 0;
+    justify-content: center;
+    height: 40px;  
+}
+
 .sca{
     text-decoration: none;
     color: #696969;
@@ -238,7 +253,7 @@ footer{
     text-align: center;
     padding: 1rem;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 /*-------- Footer Section --------*/
 
