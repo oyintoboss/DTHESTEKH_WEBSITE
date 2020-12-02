@@ -35,8 +35,33 @@ body{
     border: 0;
 }
 
+.fas{
+    margin: .3rem;
+}
+
 img{
-    max-width: 100%;
+    max-width: 100%; 
+}
+
+.info_image{
+    max-width: 100%; 
+    width: 100%;
+    height: 30rem;  
+}
+
+.sca{
+    text-decoration: none;
+    color: #696969;
+}
+
+.sca:visited{
+    text-decoration: none;
+    color: #696969;
+}
+
+.sca:hover{
+    text-decoration: none;
+    color: #696969;
 }
 
 .wrapper{
@@ -212,7 +237,13 @@ footer{
     color: var(--light);
     text-align: center;
     padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
+/*-------- Footer Section --------*/
+
+/*-------- Footer Section --------*/
+
 /*-------- Footer Section --------*/
 
 /*-------- MEDIA QUERIES FOR 700PX --------*/
@@ -239,6 +270,15 @@ footer{
         display: block;
         text-align: center;
         margin: auto;
+    }
+    footer{
+        margin-top: 2rem;
+        background: var(--dark);
+        color: var(--light);
+        text-align: center;
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 }
 /*-------- MEDIA QUERIES --------*/
