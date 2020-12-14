@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    background: #ccc;
+    background: var(--light);
     margin: 30px 50px;
     line-height: 1.4;
 }
@@ -160,6 +160,7 @@ img{
     font-size: 4rem;
     margin-bottom: 0;
     color: var(--light);
+    /* opacity: ; */
 }
 /*--x----- Showcase H1 -----x--*/
 
