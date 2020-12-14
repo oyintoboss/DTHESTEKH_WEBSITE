@@ -159,6 +159,7 @@ img{
     align-items: start;
     justify-content: center;
     box-shadow: var(--shadow);
+    opacity: 0.9;
 }
 /*--x----- Showcase -----x--*/
 
