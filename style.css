@@ -19,6 +19,12 @@ body{
     line-height: 1.4;
 }
 
+a .fab{
+text-decoration: none;
+color: var(--light);
+background-color: var(--dark);
+}
+
 .btn{
     background: var(--buttonbackground);
     color: var(--light);
