@@ -3,6 +3,8 @@
     --primary: #ddd;
     --dark: #333;
     --light: #fff;
+    --bannercolor: #5d097a;
+    --bannertext: #5ba4da;
     --buttonbackground: #696969;
     --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
@@ -167,7 +169,7 @@ img{
 .showcase h1{
     font-size: 4rem;
     margin-bottom: 0;
-    color: var(--light);
+    color: var(--bannercolor);
     /* opacity: ; */
 }
 /*--x----- Showcase H1 -----x--*/
@@ -176,7 +178,7 @@ img{
 .showcase p{
     font-size: 1.3rem;
     margin-top: 0;
-    color: var(--light);
+    color: var(--bannertext);
 }
 /*--x----- Showcase Paragraph -----x--*/
 
