@@ -166,7 +166,7 @@ img{
 /*--x----- Showcase -----x--*/
 
 /*-------- Showcase H1 --------*/
-.showcase h1{
+.showcase .dthes__tekh__title{
     font-size: 4rem;
     margin-bottom: 0;
     color: var(--bannercolor);
