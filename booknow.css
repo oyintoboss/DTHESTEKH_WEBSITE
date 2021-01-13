@@ -1,0 +1,166 @@
+/*-------- CSS VARIABLE LINK --------*/
+@import url("cssvariable.css");
+/*-------- CSS VARIABLE LINK --------*/
+
+/*-------- GLOBAL CSS --------*/
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    padding: 1rem;
+    font-size: var(--body__font__size);
+    font-family: var(--body__font__family);
+  }
+
+.container {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 4em;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+  }
+  
+  th {text-align: left;}
+
+  .asterik{
+    color: red;
+}
+
+  h3,
+  ul {
+    margin: 0;
+  }
+  
+  h3 {
+    margin-bottom: 3rem;
+  }
+  
+  
+  input,
+  textarea,
+  button {
+    width: 100%;
+    border: 1px solid #000;
+  }
+  
+  .wrapper {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2); 
+  }
+  .wrapper > * {
+    padding: 1em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contacts {
+    background: #4b5195;
+    color: var(--Text-Color)
+  }
+  
+  .form {
+    background: var(--Text-Color)
+  }
+  
+.form__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+.form__item label {
+    display: block;
+    margin-bottom: 1em;
+  }
+.form__item p {
+    margin: 0;
+  }
+  
+  .full-width {
+    grid-column: 1 / 3;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+  }
+  
+  button,
+  input,
+  textarea {
+    padding: 1em;
+  }
+  
+  button {    
+    background: dimgray;
+    width: 100%;
+    font-size: 1.2em;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    align-items: center; 
+    color: var( --Text-Color);
+    border: 2px solid white;
+  }
+  button:hover, button:focus {
+    background: var(--button__hover__color);    
+    font-size: 1.2em;
+    color: dimgray;
+     border: 2px solid dimgray;     
+  }
+
+/*--x----- GLOBAL CSS -----x--*/
+
+/*-------- MEDIA QUERY WITH MINIMUM WIDTH OF 600PX --------*/
+  @media (min-width: 600px) {
+    .container {
+      padding: 0;
+    }
+  }
+  /*--x----- MEDIA QUERY WITH MINIMUM WIDTH OF 600PX -----x--*/
+ 
+  
+/*-------- MEDIA QUERY WITH MINIMUM WIDTH OF 700PX --------*/
+  @media (min-width: 700px) {
+    .wrapper {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+    .wrapper > *{
+      padding: 2em 2em;
+    }
+    
+  }
+
+ /*--x----- MEDIA QUERY WITH MINIMUM WIDTH OF 700PX -----x--*/
+ 
+/*-------- (MOBILE FIRST) MEDIA QUERY WITH MAXIMUM WIDTH OF 700PX --------*/
+   @media (max-width: 700px) {  
+    .container{
+      padding: 0;
+    } 
+    
+     .wrapper {
+       
+       margin-left: 1em;
+       margin-right: 1em;
+      display: grid;
+      grid-template-columns: 2fr;
+      justify-content: center;
+    }
+    .wrapper > * {
+      padding: 2em 2em;
+    } 
+    .input-width {
+      grid-column: 1 / 3;
+    } 
+  } 
+/*--x----- (MOBILE FIRST) MEDIA QUERY WITH MAXIMUM WIDTH OF 700PX -----x--*/

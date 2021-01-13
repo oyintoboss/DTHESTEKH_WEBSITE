@@ -1,13 +1,6 @@
-/* CSS VARIABLES */
-:root{
-    --primary: #ddd;
-    --dark: #333;
-    --light: #fff;
-    --bannercolor: #5d097a;
-    --bannertext: #5ba4da;
-    --buttonbackground: #696969;
-    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
-}
+/*-------- CSS VARIABLE LINK --------*/
+@import url("cssvariable.css");
+/*-------- CSS VARIABLE LINK --------*/
 
 html{
     box-sizing: border-box;
@@ -153,6 +146,7 @@ img{
     grid-area: showcase;
     min-height: 400px;
     background: url('./assets/img/main.jpg');
+    background-color: var(--dark);
     background-size: cover;
     background-position: center;
     padding: 3rem;
@@ -160,8 +154,8 @@ img{
     flex-direction: column;
     align-items: start;
     justify-content: center;
-    box-shadow: var(--shadow);
-    opacity: 0.9;
+    box-shadow: var(--shadow2);
+    opacity: 1;
 }
 /*--x----- Showcase -----x--*/
 
@@ -216,7 +210,6 @@ img{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
 }
 /*--x----- Boxes Section -----x--*/
 
@@ -297,6 +290,7 @@ footer{
         text-align: center;
         margin: auto;
     }
+
     footer{
         margin-top: 2rem;
         background: var(--dark);
@@ -306,17 +300,30 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
     }
+    
 }
 /*-------- MEDIA QUERIES --------*/
 
 /*-------- MEDIA QUERIES FOR 500PX --------*/
 @media(max-width: 500px){
+
+    .wrapper{
+        margin-right: 3rem;
+    }
+
+    .info_image{
+        max-width: 100%; 
+        width: 100%;
+        height: 20rem;  
+    }
+
     .top-container{
         grid-template-areas: 
         'showcase'
         'top-box-a'
         'top-box-b';       
     }
+
 }
 /*-------- MEDIA QUERIES FOR 500PX --------*/
 /*--x----- Top Container -----x--*/
