@@ -308,7 +308,8 @@ footer{
 @media(max-width: 500px){
 
     .wrapper{
-        margin-right: 3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .info_image{
