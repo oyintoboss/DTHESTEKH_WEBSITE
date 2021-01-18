@@ -310,9 +310,8 @@ footer{
     .wrapper{
         margin: 0;
         padding: 0;
-        margin-left: .5rem;
-        margin-right: 1.5rem;
-        padding-right: 1rem;
+        margin-left: 2rem;
+        margin-right: .5rem;
     }
 
     .info_image{
