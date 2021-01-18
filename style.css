@@ -310,9 +310,19 @@ footer{
     .wrapper{
         margin: 0;
         padding: 0;
-        margin-left: 2rem;
+        margin-left: .1rem;
         margin-right: .5rem;
     }
+
+    /*-------- Navigation Link --------*/
+.main-navigation{
+    margin-right: 1rem;
+} 
+/*--x----- Navigation Link -----x--*/
+
+.top-container{
+    margin-right: 1rem;
+}
 
     .info_image{
         max-width: 100%; 
@@ -325,6 +335,10 @@ footer{
         'showcase'
         'top-box-a'
         'top-box-b';       
+    }
+
+    .portfolio{
+        margin-right: 1rem;
     }
 
 }
