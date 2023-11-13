@@ -37,8 +37,7 @@ background-color: var(--dark);
 }
 
 .fas{
-    margin: .3rem;
-   
+    margin: .3rem;  
 }
 
 img{
@@ -238,7 +237,6 @@ img{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-
 }
 /*-------- Portfolio Section --------*/
 
